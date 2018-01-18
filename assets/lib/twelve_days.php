@@ -45,5 +45,3 @@ function getLyrics() {
 		echo '</div>';
 	}
 }
-
-?>
