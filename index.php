@@ -12,7 +12,7 @@ require_once 'assets/lib/twelve_days.php';
 
 	<title><?php echo getTitle(); ?> Lyrics</title>
 
-	<link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
