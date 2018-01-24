@@ -6,7 +6,7 @@ function getTitle() {
 
 function getLyrics() {
 
-	$days = array('first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eigth', 'ninth', 'tenth', 'elevent', 'twelfth');
+	$days = array('first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eigth', 'ninth', 'tenth', 'eleventh', 'twelfth');
 
 	$gifts = array(
 		'A partride in a pear tree',
@@ -28,7 +28,7 @@ function getLyrics() {
 		if ($i != 11)
 			echo '<div id="day' . $i . '" onclick="hideShowDays(this.id)">';
 		else
-			echo '<div id="day' . $i . '">';
+			echo '<div id="day' . $i . '" onclick="restart(this.id)">';
 
 		echo 'On the ' . $days[$i] . ' day of Christmas my true love gave to me<br>';
 
@@ -41,6 +41,9 @@ function getLyrics() {
 				else
 					echo $gifts[$j] . '<br>';
 			}
+
+		/*if ($i == 11)
+			echo '<button id="restart" onclick="restart(this.id)">Restart<//button>';*/
 
 		echo '</div>';
 	}

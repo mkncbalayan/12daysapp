@@ -3,3 +3,8 @@ function hideShowDays(currentDay) {
 	$('#' + currentDay).hide();
 	$('#' + currentDay).next().show();
 }
+
+function restart(currentDay) {
+	$('#day11').hide();
+	$('#day0').show();
+}

@@ -5,9 +5,14 @@ body	{
 	color: white;
 }
 
+@font-face {
+	font-family: 'Exo', sans-serif;
+}
+
 .wrapper {
 	background-color: rgba(200,200,200,0.8);
 	color: black;
 	width: 60%;
 	margin: 0 auto;
+	font-family: 'Exo';
 }

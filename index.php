@@ -13,6 +13,9 @@ require_once 'assets/lib/twelve_days.php';
 	<title><?php echo getTitle(); ?> Lyrics</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+
+
 </head>
 <body>
 
@@ -23,6 +26,7 @@ require_once 'assets/lib/twelve_days.php';
 	echo getLyrics();
 
 	?>
+
 
 	</div>
 
